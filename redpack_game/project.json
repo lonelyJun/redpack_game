@@ -1,0 +1,9 @@
+{
+  "engine": "cocos-creator-js",
+  "packages": "packages",
+  "name": "redpack_game",
+  "uuid": "6652fe06-d4ed-44ca-9d65-640cf7df9e0a",
+  "version": "2.3.3",
+  "id": "7674d29d-8d4c-41fa-bcc4-53c72a936a00",
+  "isNew": false
+}
