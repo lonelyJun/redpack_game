@@ -57,7 +57,8 @@
     "_is3DNode": true,
     "_groupIndex": 0,
     "groupIndex": 0,
-    "_id": "33RgoSXcVAU7eSLe0OAzKW"
+    "autoReleaseAssets": false,
+    "_id": "5b4864ce-5a74-4deb-bf3a-838b8ab9644b"
   },
   {
     "__type__": "cc.Node",
@@ -100,7 +101,7 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1200,
+      "width": 1080,
       "height": 1920
     },
     "_anchorPoint": {
@@ -112,7 +113,7 @@
       "__type__": "TypedArray",
       "ctor": "Float64Array",
       "array": [
-        600,
+        540,
         960,
         0,
         0,
@@ -176,7 +177,7 @@
       "array": [
         0,
         0,
-        220.83647796503186,
+        527.6284462718504,
         0,
         0,
         0,
@@ -474,9 +475,9 @@
         0,
         0,
         1,
-        1,
-        1,
-        1
+        0.809,
+        0.809,
+        0.809
       ]
     },
     "_eulerAngles": {
@@ -722,10 +723,10 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 1200,
+      "width": 1080,
       "height": 1920
     },
-    "_fitWidth": true,
+    "_fitWidth": false,
     "_fitHeight": true,
     "_id": "0aV5Fx1NVFQrDEe1F+imOg"
   },
