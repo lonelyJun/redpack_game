@@ -1,8 +1,10 @@
 {
   "title": "redpack_game",
   "packageName": "org.cocos2d.demo",
-  "startScene": "5b4864ce-5a74-4deb-bf3a-838b8ab9644b",
-  "excludeScenes": [],
+  "startScene": "efa1f4a1-c061-4e78-bec1-8b3fbeed9c02",
+  "excludeScenes": [
+    "f1138fa3-652e-4116-ac12-a5baa57d4bec"
+  ],
   "includeSDKBox": false,
   "orientation": {
     "landscapeLeft": true,
