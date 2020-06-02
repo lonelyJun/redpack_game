@@ -20,9 +20,12 @@
     ]
   ],
   "excluded-modules": [
+    "Action",
+    "Button",
     "Dynamic Atlas",
     "DragonBones",
     "EditBox",
+    "Geom Utils",
     "Label Effect",
     "Mask",
     "Mesh",
@@ -71,6 +74,5 @@
       "enable": false
     }
   },
-  "migrate-history": [],
-  "start-scene": "current"
+  "migrate-history": []
 }

@@ -22,10 +22,12 @@ cc.Class({
   },
 
   update(dt) {
+    // if (this.node.y >= -this.c_height / 2) {
     this.node.y -= this.speed * dt;
-    if (this.node.y < -this.c_height / 2) {
-      this.node.removeFromParent();
-    }
+    // }
+    // if () {
+    //   this.node.removeFromParent();
+    // }
   },
 
   onCollisionEnter(other, self) {
