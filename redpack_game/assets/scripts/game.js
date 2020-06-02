@@ -113,6 +113,11 @@ cc.Class({
     this.title3.y = (this.node.height - this.title3.height) / 2;
     this.title4.y = (this.node.height - this.title4.height) / 2;
 
+    this.title1.opacity = 255;
+    this.title2.opacity = 255;
+    this.title3.opacity = 255;
+    this.title4.opacity = 255;
+
     this.title1.active = false;
     this.title2.active = false;
     this.title3.active = false;
@@ -174,7 +179,7 @@ cc.Class({
       .getComponent(cc.Label).string;
     text_num.active = true;
 
-    if (parseInt(text_num.string) >= 1000) {
+    if (parseInt(text_num.getComponent(cc.Label).string) >= 1000) {
       cc.find("Canvas/congratulation").active = true;
     } else {
       cc.find("Canvas/again_game").active = true;
