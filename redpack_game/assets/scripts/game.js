@@ -55,7 +55,7 @@ cc.Class({
     //end
     //控制飞机
     if (this.airFlag) {
-      if (this.air.x < (this.node.width + this.air.width) / 2) {
+      if (this.air.x < (this.node.width + this.air.width * 2) / 2) {
         this.air.x += 250 * dt;
       }
     }
@@ -127,13 +127,13 @@ cc.Class({
 
     // cc.find("Canvas/congratulation/go_to_gift").active = false;
 
-    cc.find("Canvas/score_bg").active = true;
-    cc.find("Canvas/time_bg").active = true;
+    // cc.find("Canvas/score_bg").active = true;
+    // cc.find("Canvas/time_bg").active = true;
 
 
 
     //重置
-    this.air.x = -(this.node.width + this.air.width) / 2;
+    this.air.x = -(this.node.width * 2 + this.air.width * 2) / 2;
     this.time = cc.find("Canvas/time_bg/time_text").getComponent(cc.Label).string = 60;
     cc.find("Canvas/score_bg/score_text").getComponent(cc.Label).string = 0;
 
