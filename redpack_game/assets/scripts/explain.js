@@ -31,7 +31,7 @@ cc.Class({
   },
 
   onCollisionEnter(other, self) {
-    this.node.removeFromParent();
+    this.node.opacity = 0;
     let score = cc.find('Canvas/score_bg/score_text')
     score.getComponent(cc.Label).string = parseInt(score.getComponent(cc.Label).string) + 100;
   },
