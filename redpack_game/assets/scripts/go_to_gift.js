@@ -15,7 +15,7 @@ cc.Class({
   to_gift(e) {
     e.stopPropagation();
     const oauth2_url =
-      "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx836c7d977708e1a7" +
+      "https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx6d4c967a36137d82" +
       "&redirect_uri=" +
       encodeURI("http://tongan-gov.jihoukeji.vip/gift.html") +
       "&response_type=code&scope=snsapi_userinfo&state=oauth_approved#wechat_redirect";
